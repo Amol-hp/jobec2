@@ -1,0 +1,264 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-02d55cb47e83a99a0",
+                    "InstanceId": "i-05aa9d7387fa7ca54",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "amolec2",
+                    "LaunchTime": "2020-07-01T19:46:13.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "ap-south-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-40-158.ap-south-1.compute.internal",
+                    "PrivateIpAddress": "172.31.40.158",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2020-07-01 21:24:48 GMT)",
+                    "SubnetId": "subnet-078cb06f",
+                    "VpcId": "vpc-e1a0b789",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2020-06-27T17:21:39.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0b395540e25ab87a0"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2020-06-27T17:21:38.000Z",
+                                "AttachmentId": "eni-attach-0fcb9fe5192ad4179",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "Ec2SG",
+                                    "GroupId": "sg-07871c5af3f1e3a24"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:ba:65:3d:20:f2",
+                            "NetworkInterfaceId": "eni-0b3ea7e6a3c440499",
+                            "OwnerId": "813325217938",
+                            "PrivateDnsName": "ip-172-31-40-158.ap-south-1.compute.internal",
+                            "PrivateIpAddress": "172.31.40.158",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-40-158.ap-south-1.compute.internal",
+                                    "PrivateIpAddress": "172.31.40.158"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-078cb06f",
+                            "VpcId": "vpc-e1a0b789",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "Ec2SG",
+                            "GroupId": "sg-07871c5af3f1e3a24"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "EC2two"
+                        },
+                        {
+                            "Key": "MORNING_START",
+                            "Value": "enable"
+                        },
+                        {
+                            "Key": "NIGHTLY_STOP",
+                            "Value": "enable"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled"
+                    }
+                }
+            ],
+            "OwnerId": "813325217938",
+            "ReservationId": "r-02f583f65d9e81924"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-02d55cb47e83a99a0",
+                    "InstanceId": "i-0003faa2ecf231230",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "amolec2",
+                    "LaunchTime": "2020-07-01T20:50:55.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "ap-south-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-36-28.ap-south-1.compute.internal",
+                    "PrivateIpAddress": "172.31.36.28",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2020-07-01 21:24:48 GMT)",
+                    "SubnetId": "subnet-078cb06f",
+                    "VpcId": "vpc-e1a0b789",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2020-06-27T17:19:57.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0875bf1d3b655f399"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2020-06-27T17:19:56.000Z",
+                                "AttachmentId": "eni-attach-07e3cedec22f04b99",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "Ec2SG",
+                                    "GroupId": "sg-07871c5af3f1e3a24"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:2c:f1:e8:32:ea",
+                            "NetworkInterfaceId": "eni-0a02781bcf00ea2b4",
+                            "OwnerId": "813325217938",
+                            "PrivateDnsName": "ip-172-31-36-28.ap-south-1.compute.internal",
+                            "PrivateIpAddress": "172.31.36.28",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-36-28.ap-south-1.compute.internal",
+                                    "PrivateIpAddress": "172.31.36.28"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-078cb06f",
+                            "VpcId": "vpc-e1a0b789",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "Ec2SG",
+                            "GroupId": "sg-07871c5af3f1e3a24"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "EC2one"
+                        },
+                        {
+                            "Key": "NIGHTLY_STOP",
+                            "Value": "enable"
+                        },
+                        {
+                            "Key": "MORNING_START",
+                            "Value": "enable"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled"
+                    }
+                }
+            ],
+            "OwnerId": "813325217938",
+            "ReservationId": "r-0af231e19858da672"
+        }
+    ]
+}
