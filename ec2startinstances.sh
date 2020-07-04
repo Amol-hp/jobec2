@@ -16,7 +16,7 @@ input='ec2start.txt'
 # Iterate through the lines
 
 while read line; do
-  echo "starting $line"
+  echo "Starting MORNING_START TAG EC2 Instance $line"
   aws ec2 start-instances --instance-ids $line
 done < $input
 
